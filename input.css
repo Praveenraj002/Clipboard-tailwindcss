@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .section-container {
+  @apply max-w-6xl mx-auto text-center
+} */
+
+body {
+  background-image: url(./Images/bg-header-desktop.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@media (max-width: 576px) {
+  body {
+    background-image: url(./Images/bg-header-mobile.png);
+  }
+}
